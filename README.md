@@ -192,7 +192,7 @@ ecommerce-price-cot-finetuning/
 ├── requirements.txt                    # Python runtime dependencies
 ├── 01_baseline_llama3_regression
 │   └── 01_baseline_llama3_regression_partA.ipynb # Project 1: Baseline Llama-3.2-3B Regression(Training)
-│   └── 01_baseline_llama3_regression_partA.ipynb # Project 1: Baseline Llama-3.2-3B Regression(Evaluation)
+│   └── 01_baseline_llama3_regression_partB.ipynb # Project 1: Baseline Llama-3.2-3B Regression(Evaluation)
 ├── 02_production_qwen_cot_engine
 │   └── 02_production_qwen_cot_engine.ipynb # Project 2: Production Qwen-2.5-3B CoT + GGUF Export
 ├── util.py                             # Benchmark evaluation harness
@@ -213,7 +213,7 @@ cd ecommerce-price-cot-finetuning
 pip install -r requirements.txt
 ```
 ### 3. Execute Fine-Tuning Notebooks
-* Run `01_baseline_llama3_regression.ipynb` for the baseline setup.
+* Run `01_baseline_llama3_regression_partA.ipynb` and `01_baseline_llama3_regression_partB.ipynb` for the baseline setup.
 * Run `02_production_qwen_cot_engine.ipynb` for the optimized CoT pipeline with automatic GGUF compilation.
 
 ---
