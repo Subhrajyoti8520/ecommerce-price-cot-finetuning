@@ -180,7 +180,7 @@ Expected Output & Verification:
 </thought>
 Price: $14.99
 ```
-![Terminal output here](assets/deployment_terminal.png)
+Terminal output is at `assets/deployment_terminal.png`
 
 ---
 ## 📁 Repository Structure
