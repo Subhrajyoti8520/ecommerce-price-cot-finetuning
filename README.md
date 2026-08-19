@@ -42,6 +42,7 @@ Direct price regression via LLMs usually produces black-box numbers prone to sil
                                                             ▼
                                     Output: "Price: $XX.XX" (Deterministic Parsing Anchor)
 ```
+**Triton GPU Acceleration:** Instead of standard PyTorch autograd, this pipeline leverages Unsloth’s custom-fused OpenAI Triton kernels. By manually deriving backpropagation steps and fusing operations (like RoPE, MLP, and Cross-Entropy Loss) in the GPU's SRAM cache, it eliminates memory-bandwidth bottlenecks—cutting VRAM usage by ~50% and accelerating fine-tuning by 2x-5x without precision degradation.
 ---
 ## 📊 The Ablation Study & Empirical Analysis
 
