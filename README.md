@@ -190,8 +190,11 @@ ecommerce-price-cot-finetuning/
 ├── .gitignore                          # Standard git ignores
 ├── Modelfile                           # ChatML Ollama runtime specification
 ├── requirements.txt                    # Python runtime dependencies
-├── 01_baseline_llama3_regression.ipynb # Project 1: Baseline Llama-3.2-3B Regression
-├── 02_production_qwen_cot_engine.ipynb # Project 2: Production Qwen-2.5-3B CoT + GGUF Export
+├── 01_baseline_llama3_regression
+│   └── 01_baseline_llama3_regression_partA.ipynb # Project 1: Baseline Llama-3.2-3B Regression(Training)
+│   └── 01_baseline_llama3_regression_partA.ipynb # Project 1: Baseline Llama-3.2-3B Regression(Evaluation)
+├── 02_production_qwen_cot_engine
+│   └── 02_production_qwen_cot_engine.ipynb # Project 2: Production Qwen-2.5-3B CoT + GGUF Export
 ├── util.py                             # Benchmark evaluation harness
 └── assets/
     └── deployment_terminal.png         # Inference output verification
