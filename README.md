@@ -1,6 +1,8 @@
 # 🛒 E-Commerce Valuation Engine: Baseline vs. Production Chain-of-Thought (CoT)
 
 [![Model Architecture](https://img.shields.io/badge/Architecture-Qwen2.5--3B%20%7C%20Llama--3.2--3B-blue.svg)](https://huggingface.co/unsloth/Qwen2.5-3B-Instruct)
+[![Llama-3.2](https://img.shields.io/badge/Architecture-Llama--3.2--3B-555555.svg)](https://huggingface.co/meta-llama/Llama-3.2-3B)[![Qwen-2.5](https://img.shields.io/badge/%7C-Qwen2.5--3B-blue.svg)](https://huggingface.co/unsloth/Qwen2.5-3B-Instruct)
+[![Model Architecture](https://img.shields.io/badge/Architecture-Qwen2.5_|_Llama3.2-blue.svg)](https://huggingface.co/unsloth/Qwen2.5-3B-Instruct)
 [![Framework](https://img.shields.io/badge/Fine--Tuning-Unsloth%20%26%20TRL-FF4500.svg)](https://github.com/unslothai/unsloth)
 [![MLOps](https://img.shields.io/badge/Tracking-Weights%20%26%20Biases-FFBE00.svg)](https://wandb.ai/)
 [![Serving](https://img.shields.io/badge/Serving-Docker%20%7C%20Ollama%20%7C%20GGUF-2496ED.svg)](https://ollama.com/)
