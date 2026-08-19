@@ -157,6 +157,26 @@ ENV/
 env.bak/
 venv.bak/
 
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model Checkpoints, Weights & Large Artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+outputs/
+checkpoint-*/
+runs/
+wandb/
+
+# Secrets & Keys
+secrets.json
+.env.local
+kaggle_secrets.py
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -216,3 +236,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS / OS artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
